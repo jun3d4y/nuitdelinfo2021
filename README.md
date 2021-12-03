@@ -1,5 +1,5 @@
 URL : https://nuit.maximesenger.com/
-Le projet n'est pas 100% fonctionnel, nous avons eu un soucis de routing qi ne fonctionne plus après build. Aucune idée de pourquoi :/
+Le projet n'est pas 100% fonctionnel, nous avons eu un soucis de routing qui ne fonctionne plus après build. Aucune idée de pourquoi :/
 
 
 # Getting Started with Create React App
