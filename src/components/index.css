@@ -1,0 +1,150 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+textarea, p {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+}
+
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comforter {
+  font-family: 'Comforter Brush', cursive;
+  font-weight: bold;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.gwendolyn {
+  font-family: 'Gwendolyn', cursive;
+  font-weight: bold;
+}
+
+.dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.previewFont {
+  font-size: 2rem;
+  height: 100%;
+}
+
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
+
+.text-black {
+  color: black;
+}
+
+.card {
+  min-height: 75vh;
+  height: 100%;
+}
+
+.animation {
+  position : absolute;
+  z-index: 1;
+  top: 0; right: 0; bottom: 0; left: 0;
+  -webkit-animation: dropFlowParticles 10s linear infinite;
+  -o-animation: dropFlowParticles 10s linear infinite;
+  animation: dropFlowParticles 10s linear infinite;
+}
+
+@-webkit-keyframes dropFlowParticles {
+    from { background-position: 0 0; }
+    to { background-position: 0 413px; }
+}
+@keyframes dropFlowParticles {
+    from { background-position: 0 0; }
+    to { background-position: 0 413px; }
+}
+
+.margin-1 {
+  text-align: center;
+  top: 80%;
+  width: 100%;
+}
+
+.margin-2 {
+  margin-top: 20%;
+  margin-left: 42%;
+}
+
+.margin-3 {
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 50%;
+}
+
+.margin-5 {
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 20%;
+  margin-right: auto;
+}
+
+.rounded {
+  border-radius: 1rem !important;
+}
+
+.padded {
+  padding: 1rem;
+}
+
+.shadow {
+  box-shadow: 0 0 0 0 rgb(0 0 0 / 40%);
+}
+
+.card, .menu-h, .menu-v {
+  max-height: 75vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.menu-h {
+  display: flex;
+  height: auto;
+}
+
+.menu-v {
+  height: 100%;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.menu-v .option {
+  margin-left: auto;
+  margin-right: auto;
+  height: 6rem;
+}
+
+.menu-h .option {
+  height: 6rem;
+  width: 8rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

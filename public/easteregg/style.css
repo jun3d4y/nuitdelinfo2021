@@ -1,0 +1,86 @@
+@font-face { 	font-family: "xmas"; 	src: url('Christmas\ Squad\ -\ Personal\ Use.otf'); }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  z-index: 1;
+  height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+.div{
+  z-index: 1;
+  border-radius: 20px;
+  box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  background: #000000;
+}
+
+.container {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  height: 75vh;
+  justify-content: center;
+}
+
+
+.bonhomme {
+  
+  width: 14%;
+  position: relative;
+}
+
+.bonhomme#Do,.bonhomme#Mi,.bonhomme#Sol,.bonhomme#Si{
+  z-index: 1;
+  position: relative;
+
+}
+
+
+
+.bonhomme#Re,.bonhomme#Fa,.bonhomme#La{
+  z-index: 10;
+  position: relative;
+
+}
+
+
+.card{
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image:url("img/fondnoel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+img.resize{
+  width:390px;
+  height: 591px;
+
+}
+
+.title{
+  text-align: center;
+  height: 20vh;
+  position: relative;
+  font-family: xmas;
+  font-size: 10 rem;
+  color :#ffd966;
+  z-index: 11;
+  
+}
+.title h1{
+  position: relative;
+  z-index: 11;
+  font-size: 7rem;
+}
